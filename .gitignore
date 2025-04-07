@@ -1,0 +1,16 @@
+# Ignore result logs and output reports
+/results/*
+!/results/.gitkeep
+
+# Ignore test logs and temp files
+*.jtl
+*.log
+*.bak
+*.tmp
+
+# Ignore system/IDE files
+.DS_Store
+Thumbs.db
+*.swp
+*.idea/
+.vscode/
